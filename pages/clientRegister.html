@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script  src="../js/funcionesG32.js">  </script>
+    
+    <title>Registro Clientes</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+    <section>
+        <h1>Registrar nuevo cliente</h1>
+
+        <div class="campos">
+            <label for="txtId">id: </label>
+            <input id="txtId" type="text"></div>
+        <div class="campos">
+            <label for="txtNombre">nombre: </label>
+            <input id="txtNombre" type="text"></div>
+        <div class="campos">
+            <label for="txtEmail">email: </label>
+            <input id="txtEmail" type="text"></div>
+        <div class="campos">
+            <label for="txtEdad">edad: </label>
+            <input id="txtEdad" type="text">
+        </div>
+        <div class="campos">
+            <button onclick="insertarCliente()">Aceptar</button>
+            <button onclick="window.location.href='../index.html'">Regresar</button>
+        </div>
+    </section>
+    
+        
+</body>
+</html>

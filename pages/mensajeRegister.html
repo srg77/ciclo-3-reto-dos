@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/funcionesG32.js">  </script>
+
+    <title>Registro Mensajes</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <section>
+        <h1>Registrar nuevo mensaje</h1>
+
+        <div class="campos">
+            <label for="txtId">id: </label>
+            <input id="txtId" type="text">
+        </div>
+        <div class="campos">
+            <label for="txtMensaje">Mensaje: </label>
+            <textarea id="txtMensaje" class="inputMessage" name="txtMensaje" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="campos">
+                <button onclick="insertarMensaje()">Aceptar</button>
+                <button onclick="window.location.href='../index.html'">Regresar</button>
+        </div>
+    </section>
+    
+        
+</body>
+</html>

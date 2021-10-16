@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G32-Reto2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script  src="js/funcionesG32.js">  </script>
+    </head>
+    <body>
+
+        <section>
+            <h1>Creación y registro de datos</h1>
+
+            <ul>
+                <li>
+                    <a href="pages/bikeRegister.html">Registrar bicicleta</a>
+                </li>
+                <li>
+                    <a href="pages/clientRegister.html">Registrar cliente</a>
+                </li><li>
+                    <a href="pages/mensajeRegister.html">Registrar mensaje</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Listar datos</h2>
+
+            <div class="lista-botones">
+                <button onclick="consultar()">Ver Bicicletas</button>
+                <button onclick="consultarClientes()">Ver Clientes</button>
+                <button onclick="consultarMensajes()">Ver Mensajes</button>
+            </div>
+
+            <div id="idResConsulta" class="resultado-get"></div>
+
+        </section>
+
+        <section>
+            <h2>Detalle Selección</h2>
+            <div id="idResConsultaDet" class="resultado-get">No ha seleccionado elementos</div>
+        </section>
+
+        <section id="sec-actualizar">
+            <h2>Actualizar elemento</h2>
+            <!-- <div class="campos">
+                <label for="txtAcId">Id: </label>
+                <input id="txtAcId" type="text" readonly></div>
+            <div class="campos">
+                <label for="txtAcMarca">marca: </label>
+                <input id="txtAcMarca" type="text"></div>
+            <div class="campos">
+                <label for="txtAcModelo">modelo: </label>
+                <input id="txtAcModelo" type="text"></div>
+            <div class="campos">
+                <label for="txtAcCategoria">Número de categoria: </label>
+                <input id="txtAcCategoria" type="text">
+            </div>
+            <div class="campos">
+                <label for="txtAcNombre">nombre: </label>
+                <input id="txtAcNombre" type="text">
+            </div>
+            <div class="campos">
+                <button onclick="actualizar()">Guardar Cambios</button>
+            </div> -->
+        </section>
+        
+        
+    </body>
+
+</html>
